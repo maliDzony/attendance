@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background: #75939c;
+  color: #fff;
+}
+p {
+  margin-top: 0;
+}
+.info{
+  padding-left: 15px;
+}
+
+.attendee {
+  border: 1px solid #fff;
+  padding: 15px;
+  text-align: center;
+  float: left;
+  width: calc(21% - 32px);
+  margin: 1% 2%;
+  color: #fff;
+  min-height: 158px;
+  background: #a2b8bf;
+}
+.studentImage {
+  max-width: 95px;
+  display: inline-block;
+}
+.studentName {
+  margin: 5px;
+}
+
+.present {
+  background: #009688;
+  padding: 15px;
+  text-align: center;
+  float: left;
+  width: calc(21% - 32px);
+  margin: 1% 2%;
+  color: #fff;
+}
+
+.late {
+  background: #ecb715;
+  padding: 15px;
+  text-align: center;
+  float: left;
+  width: calc(21% - 32px);
+  margin: 1% 2%;
+  color: #fff;
+}
+
+.absent {
+  background: #d2493f;
+  padding: 15px;
+  text-align: center;
+  float: left;
+  width: calc(21% - 32px);
+  margin: 1% 2%;
+  color: #fff;
+}
+
+.selected{
+  border: 1px dashed #000;
+  background: rgb(149, 161, 165);
+}
+
+.multipleSelect {
+  position: fixed;
+  bottom: 2%;
+  z-index: 1000;
+  left: 50%;
+  margin-left: -135px;
+}
+
+.count {
+  margin: 0 2% 2% 2%;
+}
